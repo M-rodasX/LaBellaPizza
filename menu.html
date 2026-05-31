@@ -1,0 +1,84 @@
+<html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú - La Bella Pizza</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="pedido.html">Pedido</a>
+  </nav>
+
+  <h1>Nuestro Menú</h1>
+
+  <div class="menu">
+
+    <div class="card">
+      <img src="https://myitalian.recipes/magazine/wp-content/uploads/2012/12/IMG_5276.jpg" alt="Pizza Clásica">
+      <h3>Pizza Clásica</h3>
+      <p>Q55</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Pizza Clásica" data-price="55"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400" alt="Pepperoni">
+      <h3>Pepperoni</h3>
+      <p>Q65</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Pepperoni" data-price="65"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://static.bainet.es/clip/c6361c8c-255e-407b-b650-0724a30abc8c_source-aspect-ratio_1600w_0.jpg" alt="Hawaiana">
+      <h3>Hawaiana</h3>
+      <p>Q70</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Hawaiana" data-price="70"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=400" alt="Pasta Carbonara">
+      <h3>Pasta Carbonara</h3>
+      <p>Q60</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Pasta Carbonara" data-price="60"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400" alt="Lasagna">
+      <h3>Lasagna</h3>
+      <p>Q68</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Lasagna" data-price="68"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://deliciaskitchen.b-cdn.net/wp-content/uploads/2017/09/pizza-vegetariana-con-crema-de-calabaza-y-shiitake.jpg" alt="Vegetariana">
+      <h3>Vegetariana</h3>
+      <p>Q62</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Vegetariana" data-price="62"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400" alt="Bebida Natural">
+      <h3>Bebida</h3>
+      <p>Q15</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Bebida" data-price="15"></label>
+    </div>
+
+    <div class="card">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_615830-MLU110225655311_042026-O.webp" alt="Refresco Grande">
+      <h3>Refresco Grande</h3>
+      <p>Q20</p>
+      <label>Cantidad: <input class="cantidad" type="number" min="0" value="0" data-name="Refresco Grande" data-price="20"></label>
+    </div>
+
+  </div>
+
+  <button onclick="calcular()">Calcular Total</button>
+  <p id="resultado">Total: Q0</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff3e6;
+  text-align: center;
+}
+
+nav {
+  background: #8B0000;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #8B0000;
+}
+
+.hero {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.info {
+  background: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info input {
+  padding: 8px;
+  margin: 8px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+  width: 240px;
+}
+
+.card img {
+  width: 240px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cantidad {
+  width: 60px;
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  background: #8B0000;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a00000;
+}
+
+#resultado {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8B0000;
+}
+
+#mensaje {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+}
